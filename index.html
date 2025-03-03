@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--FONT-AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--MAIN CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Tyler Rottmann Portfolio</title>
+</head>
+<body>
+    <!--HEADER DESIGN-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--HOME DESIGN-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, My Name is</h3>
+            <h1>Tyler Rottmann</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>And an aspiring Software Engineer, Software Developer, Frontend Engineer, Backend Engineer, etc.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/tyler.rottmann" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/tyler-rottmann-95617b233" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <a href="img/TylerRottmannResume.docx.pdf" target="_blank" class="btn">View Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/TylerPhotoCircle.png" alt="">
+        </div>
+    </section>
+
+    <!--ABOUT DESIGN-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/TylerGradPhoto.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Software Developer Intern</h3>
+            <p>Responsible for developing updates and testing a powerful software used to help nonprofits find opportunities to apply for grants and for organizations to find nonprofits to give grants to. Learn more at <span><a href="https://charityez.org/" target="_blank">CharityEZ.org</a></span></p>
+            <p class="more-text">My responsibilities are very diverse, and I am always on my toes with a new exciting project. Through this internship I have gained professional experience in HTML, CSS (Bootstrap included), JavaScript, and SQL.
+                                 Along with developing updates for the software itself, I also update our website. I also spend a lot of time testing for bugs and performance issues. I have also been able to use Website Penetration Testing skills I have learned though school to ensure the cybersecurity of our program, 
+                                 which includes testing for injections, input validations, logic attacks, and more.</p>
+            <button class="btn read-more">Read More</button>
+        </div>
+    </section>
+
+    <!--SERVICES DESIGN-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Software Development</h3>
+                <p>Internship, CharityEZ</p>
+                <p class="more-text">Developing updates and testing for bugs on both the software and the wwebsite. Experience gained in HTML, CSS(Bootstrap), JavaScript, and SQL.</p>
+                <button class="btn read-more">Read More</button>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>College Student</h3>
+                <p>UW-Milwaukee, Class of 2026</p>
+                <p class="more-text">Bachelors in Computer Science<br> Minor in Information Technology<br> 3.9 GPA<br><br> I worked as hard as I could in high school with a dream to graduate college early, from taking AP classes to taking actual college courses with college students. 
+                    I graduated from Oak Creek High School in the Spring of 2024 and am set to graduate from UWM in the Fall of 2026.
+                </p>
+                <button class="btn read-more">Read More</button>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-gamepad"></i>
+                <h3>Game Development</h3>
+                <p>Personal Projects</p>
+                <p class="more-text">I find that developing games is one of my favorite ways of using my programming skills. I use it to showcase my abilities in a way that is fun for me and anyone who plays them. I am currently trying to publish some of my finished games to Y8 Games uder their ad revenue program. Check out the Personal Projects section to see my most recent games.</p>
+                <button class="btn read-more">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO DESIGN-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box" data-project="project1">
+                <img src="img/computer.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>AI Chatbot</h4>
+                    <p>Created using Python and OpenAI APIs as the backend, and Voiceflow as the frontend.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box" data-project="project2">
+                <img src="img/computer.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Retro-style Snake</h4>
+                    <p>Created with HTML, CSS, JavaScript.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box" data-project="project3">
+                <img src="img/computer.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web API Program</h4>
+                    <p>Created using Web APIs, JSON files, HTML, CSS, JavaScript</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box" data-project="project4">
+                <img src="img/computer.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>16 Bit Adventure Game</h4>
+                    <p>Created using Java</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box" data-project="project5">
+                <img src="img/computer.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Login Page</h4>
+                    <p>Created with PHP, MySQL, HTML, CSS, Font-Awesome, JavaScript</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box" data-project="project6">
+                <img src="img/computer.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Stealth Game</h4>
+                    <p>Created using Python and a popular framework, PyGame</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACT DESIGN
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://formspree.io/f/mnnjelwp" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+                -->
+
+                <section class="contact" id="contact">
+                    <h2 class="heading">Contact <span>Me</span></h2>
+                
+                    <form action="https://formspree.io/f/mnnjelwp" method="POST">
+                        <div class="input-box">
+                            <input type="text" name="name" placeholder="Full Name" required>
+                            <input type="email" name="email" placeholder="Email Address" required>
+                        </div>
+                
+                        <div class="input-box">
+                            <input type="tel" name="phone" placeholder="Mobile Number">
+                            <input type="text" name="subject" placeholder="Email Subject">
+                        </div>
+                
+                        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                
+                        <input type="submit" value="Send Message" class="btn">
+                    </form>
+                </section>
+                
+    <!--FOOTER DESIGN-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Tyler Rottmann | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"> <i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--MODAL DESIGN-->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="project-title"></h2>
+            <p id="project-description"></p>
+            
+            <!-- Image Carousel -->
+            <div class="carousel">
+                <button id="prev">&#10094;</button>
+                <img id="project-image" src="" alt="Project Image">
+                <button id="next">&#10095;</button>
+            </div>
+        </div>
+    </div>
+    
+    <!--SCROLL REVEAL JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--TYPED-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--MAIN JS-->
+    <script src="main.js"></script>
+</body>
+</html>
