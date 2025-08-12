@@ -50,7 +50,7 @@ ScrollReveal().reveal('.home-contact p, .about-content', {origin: 'right' });
 
 //Typed JS
 const typed = new Typed('.multiple-text', {
-    strings: ['Software Developer Intern', 'Game Developer', 'Website Penetration Tester'],
+    strings: ['Software Engineering Intern', 'Game Developer', 'Website Penetration Tester'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
@@ -152,4 +152,5 @@ document.getElementById("next").addEventListener("click", () => {
         projectImage.src = currentProject.images[currentImageIndex];
     }
 });
+
 
