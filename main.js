@@ -102,6 +102,11 @@ const projects = {
         title: "Stealth Game",
         description: "This is a game that was made to test my Python skills as well as using a popular framework, PyGame. The user has to not be in the radius of the red circle (who uses AI to partol the area) or else it starts chasing the user. Once the user is touched then the game is over. The user can use walls to hide from the enemy. More updates will bring more objectives for the user.",
         images: ["img/spy1.png", "img/spy2.png", "img/spy3.png"]
+    },
+    project7: {
+        title: "Plagiarism Checker",
+        description: "Created using Python and Tkinter for the UI. Uses data mining techniques like shingling, min-hashing, and LSH to find jaccard and cosine similarities",
+        images: ["img/checker1.png", "img/checker2.png", "img/checker3.png"]
     }
 };
 
