@@ -105,7 +105,7 @@ const projects = {
     },
     project7: {
         title: "Plagiarism Checker",
-        description: "Created using Python and Tkinter for the UI. Uses data mining techniques like shingling, min-hashing, and LSH to find jaccard and cosine similarities",
+        description: "Created using Python and Tkinter for the UI. Uses data mining techniques like shingling, min-hashing, and LSH to find jaccard and cosine similarities to calculate how similar two documents are.",
         images: ["img/checker1.png", "img/checker2.png", "img/checker3.png"]
     }
 };
