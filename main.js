@@ -110,7 +110,7 @@ const projects = {
     },
     project8: {
         title: "Project Management Site",
-        description: "Created using Django and SQLite. Users can form teams, create projects, create and assign tasks and due dates, create a custom profile (including a profile picture), made for project management.",
+        description: "Created using Django and SQLite. Users can form teams, create projects, create and assign tasks and due dates, create a custom profile (including a profile picture), made for intuitive project management.",
         images: ["img/munera1.png", "img/munera2.png", "img/munera3.png", "img/munera7.png", "img/munera4.png", "img/munera8.png", "img/munera5.png", "img/munera9.png", "img/munera6.png", "img/munera10.png"]
     }
 };
