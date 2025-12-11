@@ -107,6 +107,11 @@ const projects = {
         title: "Plagiarism Checker",
         description: "Created using Python and Tkinter for the UI. Uses data mining techniques like shingling, min-hashing, and LSH to find jaccard and cosine similarities to calculate how similar two documents are.",
         images: ["img/checker1.png", "img/checker2.png", "img/checker3.png"]
+    },
+    project8: {
+        title: "Project Management Site",
+        description: "Created using Django and SQLite. Users can form teams, create projects, create and assign tasks and due dates, create a custom profile (including a profile picture), made for project management.",
+        images: ["img/munera1.png", "img/munera2.png", "img/munera3.png", "img/munera7.png", "img/munera4.png", "img/munera8.png", "img/munera5.png", "img/munera9.png", "img/munera6.png", "img/munera10.png"]
     }
 };
 
