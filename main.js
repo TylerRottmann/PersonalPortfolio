@@ -112,6 +112,11 @@ const projects = {
         title: "Project Management Site",
         description: "Created using Django and SQLite. Users can form teams, create projects, create and assign tasks and due dates, create a custom profile (including a profile picture), made for intuitive project management.",
         images: ["img/munera1.png", "img/munera2.png", "img/munera3.png", "img/munera7.png", "img/munera4.png", "img/munera8.png", "img/munera5.png", "img/munera9.png", "img/munera6.png", "img/munera10.png"]
+    },
+    project9: {
+        title: "Course Management System",
+        description: "Created using Django and SQLite. Admin can create instructor and student accounts, create courses, and course offerings. Each course has seat limit and prerequisite enforcement. Instructors can view their courses, edit course info, and take students off the waitlist. Students can view and enroll in courses, create special enrollment requests, and send direct messages to instructors.",
+        images: ["img/course1.png", "img/course2.png", "img/course3.png", "img/course4.png", "img/course5.png", "img/course6.png", "img/course7.png", "img/course8.png", "img/course9.png", "img/course10.png", "img/course11.png", "img/course12.png", "img/course13.png"]
     }
 };
 
